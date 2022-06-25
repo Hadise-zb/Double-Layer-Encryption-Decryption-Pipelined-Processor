@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 23 17:33:41 2021
+# Process ID: 6032
+# Current directory: C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11200 C:\comp3211\New lab folder\for final checking\project_final.xpr\project_3\project_3.xpr
+# Log file: C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3/vivado.log
+# Journal file: C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3/project_3.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3/project_3.srcs/sim_1/imports/project_3/scp_test_behav2.wcfg}
+source scp_test.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3/project_3.srcs/sim_1/imports/project_3/scp_test_behav2.wcfg}
+source scp_test.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3/project_3.srcs/sim_1/imports/project_3/scp_test_behav2.wcfg}
+source scp_test.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3/project_3.srcs/sim_1/imports/project_3/scp_test_behav2.wcfg}
+source scp_test.tcl
+archive_project {C:/comp3211/project submission/3211_final_project_for_submission.xpr.zip} -temp_dir {C:/comp3211/New lab folder/for final checking/project_final.xpr/project_3/.Xil/Vivado-6032-LAPTOP-F20T0L8V} -force -include_local_ip_cache

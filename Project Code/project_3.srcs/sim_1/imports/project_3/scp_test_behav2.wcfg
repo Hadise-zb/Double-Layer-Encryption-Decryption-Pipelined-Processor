@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="scp_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="scp_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="202fs"></ZoomEndTime>
+      <Cursor1Time time="109fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="312"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="51" />
+   <wvobject fp_name="/scp_test/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/ctrl_unit/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/ctrl_unit/flip" type="logic">
+      <obj_property name="ElementShortName">flip</obj_property>
+      <obj_property name="ObjectShortName">flip</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/ctrl_unit/ctl_XOR" type="logic">
+      <obj_property name="ElementShortName">ctl_XOR</obj_property>
+      <obj_property name="ObjectShortName">ctl_XOR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/ctrl_unit/parity" type="logic">
+      <obj_property name="ElementShortName">parity</obj_property>
+      <obj_property name="ObjectShortName">parity</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_parity/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/ctrl_unit/RLS" type="logic">
+      <obj_property name="ElementShortName">RLS</obj_property>
+      <obj_property name="ObjectShortName">RLS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_XOR/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_parity/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_parity/addr_out" type="array">
+      <obj_property name="ElementShortName">addr_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_parity/is_even" type="logic">
+      <obj_property name="ElementShortName">is_even</obj_property>
+      <obj_property name="ObjectShortName">is_even</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/register_D1/R" type="array">
+      <obj_property name="ElementShortName">R[16:0]</obj_property>
+      <obj_property name="ObjectShortName">R[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/register_D1/R_recieve" type="array">
+      <obj_property name="ElementShortName">R_recieve[16:0]</obj_property>
+      <obj_property name="ObjectShortName">R_recieve[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/mux_selecter" type="array">
+      <obj_property name="ElementShortName">mux_selecter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_selecter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/register_D0/Q" type="array">
+      <obj_property name="ElementShortName">Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/register_D1/Q" type="array">
+      <obj_property name="ElementShortName">Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/register_D2/Q" type="array">
+      <obj_property name="ElementShortName">Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/register_D3/Q" type="array">
+      <obj_property name="ElementShortName">Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/register_D0/Recieve" type="logic">
+      <obj_property name="ElementShortName">Recieve</obj_property>
+      <obj_property name="ObjectShortName">Recieve</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/sig_reg_in_0" type="array">
+      <obj_property name="ElementShortName">sig_reg_in_0[16:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_reg_in_0[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/sig_reg_in_1" type="array">
+      <obj_property name="ElementShortName">sig_reg_in_1[16:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_reg_in_1[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/sig_reg_in_2" type="array">
+      <obj_property name="ElementShortName">sig_reg_in_2[16:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_reg_in_2[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/sig_reg_in_3" type="array">
+      <obj_property name="ElementShortName">sig_reg_in_3[16:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_reg_in_3[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/ALU_out" type="array">
+      <obj_property name="ElementShortName">ALU_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/mux_2/mux_select" type="array">
+      <obj_property name="ElementShortName">mux_select[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_select[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/mux_2/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/sig_parity_out" type="array">
+      <obj_property name="ElementShortName">sig_parity_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_parity_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_flip/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_flip/secret" type="array">
+      <obj_property name="ElementShortName">secret[3:0]</obj_property>
+      <obj_property name="ObjectShortName">secret[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_flip/reg" type="array">
+      <obj_property name="ElementShortName">reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_flip/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_flip/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_RLS/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_RLS/secret" type="array">
+      <obj_property name="ElementShortName">secret[15:0]</obj_property>
+      <obj_property name="ObjectShortName">secret[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_RLS/reg" type="array">
+      <obj_property name="ElementShortName">reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_RLS/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_RLS/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_RLS/real_secret" type="array">
+      <obj_property name="ElementShortName">real_secret[2:0]</obj_property>
+      <obj_property name="ObjectShortName">real_secret[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_RLS/result" type="array">
+      <obj_property name="ElementShortName">result[16:0]</obj_property>
+      <obj_property name="ObjectShortName">result[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_XOR/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_XOR/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[67:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[67:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_XOR/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_compare/status" type="logic">
+      <obj_property name="ElementShortName">status</obj_property>
+      <obj_property name="ObjectShortName">status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_compare/tag_ge" type="array">
+      <obj_property name="ElementShortName">tag_ge[16:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_ge[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_compare/tag_giv" type="array">
+      <obj_property name="ElementShortName">tag_giv[16:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_giv[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/do_compare/result" type="logic">
+      <obj_property name="ElementShortName">result</obj_property>
+      <obj_property name="ObjectShortName">result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/file_data_in" type="array">
+      <obj_property name="ElementShortName">file_data_in[101:0]</obj_property>
+      <obj_property name="ObjectShortName">file_data_in[101:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/MEM/data_out0" type="array">
+      <obj_property name="ElementShortName">data_out0[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out0[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scp_test/uut/MEM/data_out1" type="array">
+      <obj_property name="ElementShortName">data_out1[16:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out1[16:0]</obj_property>
+   </wvobject>
+</wave_config>

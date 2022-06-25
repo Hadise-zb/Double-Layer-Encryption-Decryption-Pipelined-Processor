@@ -1,0 +1,29 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/EX_MEM_REG.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/ID_EX_REG.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/IF_ID_REG.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/new folder/component/RLS.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/project_4/project_4.srcs/sources_1/new/Register.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/new folder/component/XOR.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/adder_4b.vhd" \
+"../../../../project_3.srcs/sources_1/new/compare.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/control_unit.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/data_memory.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/new folder/component/flip.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/instruction_memory.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/new folder/component/lab1_1.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/new folder/component/lab1_2.vhd" \
+"../../../../project_3.srcs/sources_1/new/mux_2to1.vhd" \
+"../../../../project_3.srcs/sources_1/new/mux_2to1_D1.vhd" \
+"../../../../project_3.srcs/sources_1/new/mux_2to1_D2.vhd" \
+"../../../../project_3.srcs/sources_1/new/mux_2to1_D3.vhd" \
+"../../../../project_3.srcs/sources_1/new/mux_3to1.vhd" \
+"../../../../project_3.srcs/sources_1/new/mux_4to1.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/new folder/component/parity.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/program_counter.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/single_cycle_core.vhd" \
+"../../../../project_3.srcs/sources_1/imports/project/lab3/scp_test.vhd" \
+
+# Do not sort compile order
+nosort

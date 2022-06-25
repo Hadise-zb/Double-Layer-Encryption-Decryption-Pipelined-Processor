@@ -1,0 +1,44 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ba93f50a1b4b4227bd625a5498771125 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot scp_test_behav xil_defaultlib.scp_test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.program_counter [program_counter_default]
+Compiling architecture behavioural of entity xil_defaultlib.adder_4b [adder_4b_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_memory [instruction_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.IF_ID_REG [if_id_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1_D0 [mux_2to1_d0_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1_D1 [mux_2to1_d1_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1_D2 [mux_2to1_d2_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2to1_D3 [mux_2to1_d3_default]
+Compiling architecture behavior of entity xil_defaultlib.regn_c [\regn_c(n=17)\]
+Compiling architecture behavior of entity xil_defaultlib.regn_c [\regn_c(n=16)\]
+Compiling architecture behavior of entity xil_defaultlib.regn_c [\regn_c(n=1)\]
+Compiling architecture behavioral of entity xil_defaultlib.ID_EX_REG [id_ex_reg_default]
+Compiling architecture behavior of entity xil_defaultlib.regn_c [\regn_c(n=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.mux_4to1 [mux_4to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.parity_bit [parity_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.parity [parity_default]
+Compiling architecture behavioral of entity xil_defaultlib.flip [flip_default]
+Compiling architecture behavioral of entity xil_defaultlib.XOR_component [xor_component_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab1_1 [lab1_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.RLS [rls_default]
+Compiling architecture behavioral of entity xil_defaultlib.compare [compare_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_3to1 [mux_3to1_default]
+Compiling architecture behavioural of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.EX_MEM_REG [ex_mem_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.data_memory [data_memory_default]
+Compiling architecture structural of entity xil_defaultlib.single_cycle_core [single_cycle_core_default]
+Compiling architecture behavior of entity xil_defaultlib.scp_test
+Built simulation snapshot scp_test_behav
